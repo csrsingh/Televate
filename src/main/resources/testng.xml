@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Televate Automation Test Suite">
+	<listeners>
+		<listener
+			class-name="com.televate.qa.extentReport.ExtentReporterNG" />
+	</listeners>	
+	<test name="Login">
+		<classes>
+			<class name="com.televate.qa.testcases.LoginPageTest"></class>
+		</classes>
+	</test>
+	<test name="Dashboard">
+		<classes>
+			<class name="com.televate.qa.testcases.DashboardPageTest"></class>
+		</classes>
+	</test>
+</suite>

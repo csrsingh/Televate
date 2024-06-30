@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-30T10:25:17Z" name="Televate Automation Test Suite" finished-at="2024-06-30T10:25:53Z" duration-ms="36727">
+    <groups>
+    </groups>
+    <test started-at="2024-06-30T10:25:17Z" name="Login" finished-at="2024-06-30T10:25:34Z" duration-ms="17638">
+      <class name="com.televate.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.televate.qa.testcases.LoginPageTest@3e92efc3]" started-at="2024-06-30T10:25:17Z" name="setUp" finished-at="2024-06-30T10:25:30Z" duration-ms="13228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.televate.qa.testcases.LoginPageTest@3e92efc3]" started-at="2024-06-30T10:25:30Z" name="loginPageTitleTest" finished-at="2024-06-30T10:25:30Z" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="TelvatelogoTest()[pri:2, instance:com.televate.qa.testcases.LoginPageTest@3e92efc3]" started-at="2024-06-30T10:25:30Z" name="TelvatelogoTest" finished-at="2024-06-30T10:25:30Z" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TelvatelogoTest -->
+        <test-method signature="ForgotPasswordTest()[pri:3, instance:com.televate.qa.testcases.LoginPageTest@3e92efc3]" started-at="2024-06-30T10:25:30Z" name="ForgotPasswordTest" finished-at="2024-06-30T10:25:30Z" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPasswordTest -->
+        <test-method signature="ORTextTest()[pri:4, instance:com.televate.qa.testcases.LoginPageTest@3e92efc3]" started-at="2024-06-30T10:25:30Z" name="ORTextTest" finished-at="2024-06-30T10:25:30Z" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ORTextTest -->
+        <test-method signature="SSOLoginTest()[pri:5, instance:com.televate.qa.testcases.LoginPageTest@3e92efc3]" started-at="2024-06-30T10:25:30Z" name="SSOLoginTest" finished-at="2024-06-30T10:25:30Z" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SSOLoginTest -->
+        <test-method signature="loginTest()[pri:6, instance:com.televate.qa.testcases.LoginPageTest@3e92efc3]" started-at="2024-06-30T10:25:30Z" name="loginTest" finished-at="2024-06-30T10:25:32Z" duration-ms="2078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.televate.qa.testcases.LoginPageTest@3e92efc3]" started-at="2024-06-30T10:25:32Z" name="tearDown" finished-at="2024-06-30T10:25:34Z" duration-ms="1906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.televate.qa.testcases.LoginPageTest -->
+    </test> <!-- Login -->
+    <test started-at="2024-06-30T10:25:34Z" name="Dashboard" finished-at="2024-06-30T10:25:53Z" duration-ms="19010">
+      <class name="com.televate.qa.testcases.DashboardPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.televate.qa.testcases.DashboardPageTest@3d74bf60]" started-at="2024-06-30T10:25:34Z" name="setUp" finished-at="2024-06-30T10:25:44Z" duration-ms="9844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DashboardPageTitleTest()[pri:1, instance:com.televate.qa.testcases.DashboardPageTest@3d74bf60]" started-at="2024-06-30T10:25:44Z" name="DashboardPageTitleTest" finished-at="2024-06-30T10:25:44Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardPageTitleTest -->
+        <test-method signature="DashboardUpcomingTileTest()[pri:2, instance:com.televate.qa.testcases.DashboardPageTest@3d74bf60]" started-at="2024-06-30T10:25:44Z" name="DashboardUpcomingTileTest" finished-at="2024-06-30T10:25:52Z" duration-ms="7858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardUpcomingTileTest -->
+        <test-method signature="DashboardDocumentedTileTest()[pri:3, instance:com.televate.qa.testcases.DashboardPageTest@3d74bf60]" started-at="2024-06-30T10:25:52Z" name="DashboardDocumentedTileTest" finished-at="2024-06-30T10:25:52Z" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardDocumentedTileTest -->
+        <test-method signature="DashboardMissedTileTest()[pri:4, instance:com.televate.qa.testcases.DashboardPageTest@3d74bf60]" started-at="2024-06-30T10:25:52Z" name="DashboardMissedTileTest" finished-at="2024-06-30T10:25:52Z" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardMissedTileTest -->
+        <test-method signature="DashboardUndocumentedTileTest()[pri:5, instance:com.televate.qa.testcases.DashboardPageTest@3d74bf60]" started-at="2024-06-30T10:25:52Z" name="DashboardUndocumentedTileTest" finished-at="2024-06-30T10:25:52Z" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardUndocumentedTileTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.televate.qa.testcases.DashboardPageTest@3d74bf60]" started-at="2024-06-30T10:25:52Z" name="tearDown" finished-at="2024-06-30T10:25:53Z" duration-ms="1165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.televate.qa.testcases.DashboardPageTest -->
+    </test> <!-- Dashboard -->
+  </suite> <!-- Televate Automation Test Suite -->
+</testng-results>
